@@ -1,0 +1,4 @@
+operations:
+  - name: operacao-financeira
+    event: do.operation.request
+    commit: true

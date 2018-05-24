@@ -1,0 +1,4 @@
+operations:
+  - name: consolida-saldo
+    event: consolida.saldo.request
+    commit: true

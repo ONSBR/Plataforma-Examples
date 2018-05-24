@@ -1,0 +1,15 @@
+{
+    "app": {
+        "type": "process",
+        "name": "retificacao-operacao",
+        "version": "1",
+        "description": "1",
+        "author": "1",
+        "id": "7d85b23b-b743-405e-9b0a-aa834abff349"
+    },
+    "solution": {
+        "name": "teste",
+        "description": "teste",
+        "id": "ec498841-59e5-47fd-8075-136d79155705"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "app": {
+        "type": "process",
+        "name": "consolida-saldo",
+        "version": "1",
+        "description": "1",
+        "author": "1",
+        "id": "7828c3c7-0352-42a5-9342-2673293bc93d"
+    },
+    "solution": {
+        "name": "teste",
+        "description": "teste",
+        "id": "ec498841-59e5-47fd-8075-136d79155705"
+    }
+}

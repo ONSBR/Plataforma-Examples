@@ -1,0 +1,11 @@
+Operacao:
+  model: operacao
+  fields:
+    value:
+      column: valor
+    type:
+      column: tipo
+    personId:
+      column: titular_id
+    date:
+      column: data

@@ -1,0 +1,15 @@
+{
+    "name": "operacao-financeira",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "./node_modules/.bin/jasmine-node spec"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "plataforma-sdk": "git+https://github.com/ONSBR/Plataforma-SDK#feature/abrir-cenario"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "app": {
+        "type": "process",
+        "name": "operacao-financeira",
+        "version": "1",
+        "description": "1",
+        "author": "1",
+        "id": "15e13474-8d45-4c92-9830-65422ca25384"
+    },
+    "solution": {
+        "name": "teste",
+        "description": "teste",
+        "id": "ec498841-59e5-47fd-8075-136d79155705"
+    }
+}

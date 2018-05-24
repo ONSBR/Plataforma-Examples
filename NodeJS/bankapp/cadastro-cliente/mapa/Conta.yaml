@@ -1,0 +1,9 @@
+Conta:
+  model: conta
+  fields:
+    balance:
+      column: saldo
+    name:
+      column: titular
+    document:
+      column: rg

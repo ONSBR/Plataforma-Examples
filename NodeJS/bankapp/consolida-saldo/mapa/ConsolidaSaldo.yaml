@@ -1,0 +1,23 @@
+Operacao:
+  model: operacao
+  fields:
+    value:
+      column: valor
+    type:
+      column: tipo
+    personId:
+      column: titular_id
+    date:
+      column: data
+  filters:
+    byTitular: "titular_id = :personId"
+
+Conta:
+  model: conta
+  fields:
+    personId:
+      column: id
+    balance:
+      column: saldo
+  filters:
+    byPersonId: "id = :personId"

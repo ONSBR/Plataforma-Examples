@@ -1,0 +1,7 @@
+conta:
+  titular:
+    - string
+  rg:
+    - string
+  saldo:
+    - integer
