@@ -1,0 +1,15 @@
+{
+    "app": {
+        "type": "process",
+        "name": "cadastro-cliente",
+        "version": "1.0",
+        "description": "cadastro cliente",
+        "author": "autor",
+        "id": "044bb6ab-0cd0-4af6-9422-aa9ca40d333a"
+    },
+    "solution": {
+        "name": "bankapp-dotnet",
+        "description": "Implementação em dotnet",
+        "id": "57f47f54-e505-4f67-a4b7-694b8c8a8a71"
+    }
+}
