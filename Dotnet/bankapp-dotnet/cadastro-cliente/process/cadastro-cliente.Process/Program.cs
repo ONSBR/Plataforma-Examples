@@ -1,4 +1,5 @@
 ﻿using System;
+using ONS.PlataformaSDK.ProcessApp;
 
 namespace cadastro_cliente.Process
 {

@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="libs\Plataforma-SDK.NET.dll"></Reference>
+  </ItemGroup>
+
 </Project>
