@@ -29,26 +29,5 @@ namespace cadastro_cliente.Process
             Console.WriteLine("Fim Cadastro de conta");
         }
 
-        // async private static void teste() 
-        // {
-        //     try
-        //     {
-        //         System.Console.WriteLine("teste");
-        //         var client = new System.Net.Http.HttpClient();
-        //         var content = new StringContent("{\"Name\":\"ec498841-59e5-47fd-8075-136d79155705.persist.request\",\"instanceId\":\"2a2b862a-0816-4d33-8f23-75f75d9fd601\",\"Payload\":{\"instanceId\":\"2a2b862a-0816-4d33-8f23-75f75d9fd601\"}}", Encoding.UTF8, "application/json");
-        //         var response = await client.PutAsync("http://localhost:8081/sendevent", content);
-        //         response.EnsureSuccessStatusCode();
-        //         var status = await response.Content.ReadAsStringAsync();
-        //         System.Console.WriteLine(status);
-        //         System.Console.WriteLine("teste2");
-        //     }
-        //     catch (System.Exception e)
-        //     {
-        //         System.Console.WriteLine(e);
-        //         throw e;
-        //     } finally {
-        //         System.Console.WriteLine("finally");
-        //     }
-        // }
     }
 }
