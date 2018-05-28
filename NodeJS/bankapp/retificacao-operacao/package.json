@@ -10,6 +10,6 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "plataforma-sdk": "git+https://github.com/ONSBR/Plataforma-SDK#feature/abrir-cenario"
+        "plataforma-sdk": "git+https://github.com/ONSBR/Plataforma-SDK"
     }
 }
