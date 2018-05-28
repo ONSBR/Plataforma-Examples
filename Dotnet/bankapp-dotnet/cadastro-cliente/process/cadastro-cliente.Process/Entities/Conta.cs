@@ -4,8 +4,8 @@ namespace Entities
 {
     public class Conta : BaseEntity
     {
-        public string titular{get;set;}
+        public string Titular{get;set;}
         public string RG{get;set;}
-        public string Saldo{get;set;}
+        public int Saldo{get;set;}
     }
 }

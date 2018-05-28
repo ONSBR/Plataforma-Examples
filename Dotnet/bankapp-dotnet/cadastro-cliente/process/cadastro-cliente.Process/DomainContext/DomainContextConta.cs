@@ -6,7 +6,13 @@ namespace DomainContext
 {
     public class DomainContextConta : IDomainContext
     {
-        private List<Conta> Conta;
+        public List<Conta> Conta{get;set;}
+
+        public DomainContextConta()
+        {
+            Conta = new List<Conta>();
+        }
+        
         public List<BaseEntity> GetPersistList()
         {
             var Entities = new List<BaseEntity>();
