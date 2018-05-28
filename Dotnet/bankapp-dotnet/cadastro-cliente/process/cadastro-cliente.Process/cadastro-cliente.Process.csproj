@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Plataforma-SDK.NET\Plataforma-SDK.NET.csproj" />
+    <Reference Include="libs\Plataforma-SDK.NET.dll"></Reference>
   </ItemGroup>
 
 </Project>
