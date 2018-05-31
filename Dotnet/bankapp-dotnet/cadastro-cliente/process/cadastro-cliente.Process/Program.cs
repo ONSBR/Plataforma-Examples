@@ -16,8 +16,8 @@ namespace cadastro_cliente.Process
         {
             Console.WriteLine("Cadastro de conta");
             System.Environment.SetEnvironmentVariable("SYSTEM_ID", "ec498841-59e5-47fd-8075-136d79155705");
-            System.Environment.SetEnvironmentVariable("INSTANCE_ID", "2a2b862a-0816-4d33-8f23-75f75d9fd601");
             System.Environment.SetEnvironmentVariable("PROCESS_ID", "f7fe8464-030f-4e85-9ab9-d91adb1018ff");
+            System.Environment.SetEnvironmentVariable("INSTANCE_ID", "1159fca6-1236-4960-883c-13a510868dd0");
             System.Environment.SetEnvironmentVariable("EVENT", "create.client.request");
             try {
                 var MainApp = new MainApp();

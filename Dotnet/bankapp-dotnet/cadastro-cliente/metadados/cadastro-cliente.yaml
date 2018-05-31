@@ -1,0 +1,4 @@
+operations:
+  - name: cadastro-cliente
+    event: create.client.request
+    commit: true
