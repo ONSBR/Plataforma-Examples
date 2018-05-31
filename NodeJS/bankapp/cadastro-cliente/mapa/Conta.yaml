@@ -7,3 +7,6 @@ Conta:
       column: titular
     document:
       column: rg
+  filters:
+    byId: "id = :id"
+    all:      
