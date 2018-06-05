@@ -8,5 +8,4 @@ Conta:
     document:
       column: rg
   filters:
-    byId: "id = :id"
-    all:      
+    # byId: "id = :id"

@@ -1,12 +1,12 @@
 {
     "app": {
         "type": "process",
-        "name": "cadastro-cliente",
+        "tecnology": "dotnet",
+        "name": "cadastro-cliente-dotnet",
         "version": "1.0",
-        "description": "cadastro cliente",
-        "author": "autor",
-        "id": "044bb6ab-0cd0-4af6-9422-aa9ca40d333a",
-        "tecnology": "dotnet"
+        "description": "cadastro-cliente-dotnet",
+        "author": "teste",
+        "id": "08942262-399a-433d-9260-d248fd5c3a6d"
     },
     "solution": {
         "name": "bankapp-dotnet",

@@ -1,0 +1,15 @@
+{
+    "app": {
+        "type": "domain",
+        "name": "bankapp-dotnet",
+        "version": "1",
+        "description": "1",
+        "author": "1",
+        "id": "a2ce149c-ab61-499b-a0d0-14594b2e9ea3"
+    },
+    "solution": {
+        "name": "bankapp-dotnet",
+        "description": "Implementação em dotnet",
+        "id": "57f47f54-e505-4f67-a4b7-694b8c8a8a71"
+    }
+}

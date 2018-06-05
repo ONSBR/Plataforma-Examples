@@ -1,0 +1,4 @@
+operations:
+  - name: cadastro-cliente-dotnet
+    event: create.client.dotnet.request
+    commit: true

@@ -1,0 +1,9 @@
+operacao:
+  titular_id:
+    - uuid
+  valor:
+    - integer
+  tipo:
+    - string
+  data:
+    - datetime
