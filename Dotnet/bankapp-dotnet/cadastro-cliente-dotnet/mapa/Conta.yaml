@@ -1,5 +1,5 @@
 Conta:
-  model: conta
+  model: Conta
   fields:
     balance:
       column: saldo
