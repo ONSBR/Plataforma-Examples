@@ -1,0 +1,4 @@
+operations:
+  - name: calcula-media-historica
+    event: calcula.media.historica.request
+    commit: true

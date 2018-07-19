@@ -1,0 +1,29 @@
+MediaHistorica:
+  model: media_historica
+  fields:
+    empresa:
+      column: empresa
+    mes:
+      column: mes
+    ano:
+      column: ano
+    tipo:
+      column: tipo
+    media:
+      column: media
+  filters:
+    byEmpresaAnoMes: "empresa = :empresa and mes = :mes and ano = :ano"
+
+Cotacao:
+  model: cotacao
+  fields:
+    empresa:
+      column: empresa
+    tipo:
+      column: tipo
+    valor:
+      column: valor
+    data:
+      column: data
+  filters:
+    byEmpresaAndData: "empresa = :empresa and EXTRACT(MONTH FROM data) = :mes and EXTRACT(YEAR FROM data) = :ano"

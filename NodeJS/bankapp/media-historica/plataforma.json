@@ -1,0 +1,16 @@
+{
+    "app": {
+        "type": "process",
+        "tecnology": "node",
+        "name": "media-historica",
+        "version": "",
+        "description": "",
+        "author": "",
+        "id": "61650540-833e-405a-bb81-68a555c116f4"
+    },
+    "solution": {
+        "name": "teste",
+        "description": "teste",
+        "id": "ec498841-59e5-47fd-8075-136d79155705"
+    }
+}
