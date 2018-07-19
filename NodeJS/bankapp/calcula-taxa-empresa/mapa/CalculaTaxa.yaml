@@ -1,0 +1,25 @@
+Taxa:
+  model: taxa
+  fields:
+    empresa:
+      column: empresa
+    ano:
+      column: ano
+  filters:
+    byEmpresaAno: "empresa = :empresa and ano = :ano"
+
+MediaHistorica:
+  model: media_historica
+  fields:
+    empresa:
+      column: empresa
+    mes:
+      column: mes
+    ano:
+      column: ano
+    media:
+      column: media
+    tipo:
+      column: tipo
+  filters:
+    byEmpresaAno: "empresa = :empresa and ano <= :ano and ano > (:ano -3)"
