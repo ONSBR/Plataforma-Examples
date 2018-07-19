@@ -2,3 +2,4 @@ operations:
   - name: retificacao-cotacao
     event: retificacao.cotacao.request
     commit: true
+    skip_reprocessing: true
