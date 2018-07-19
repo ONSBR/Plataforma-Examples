@@ -5,6 +5,8 @@ Taxa:
       column: empresa
     ano:
       column: ano
+    valor:
+      column: valor
   filters:
     byEmpresaAno: "empresa = :empresa and ano = :ano"
 
@@ -22,4 +24,4 @@ MediaHistorica:
     tipo:
       column: tipo
   filters:
-    byEmpresaAno: "empresa = :empresa and ano <= :ano and ano > (:ano -3)"
+    byEmpresaAno: "empresa = :empresa and ano <= :ano and ano >= (:ano -3)"
