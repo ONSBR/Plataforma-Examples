@@ -1,17 +1,17 @@
 const SDK = require("plataforma-sdk/worker/sdk")
 
 function calculaTaxaAAA(mediasAAA) {
-    var valor = mediasAAA.map(m => m.media).reduce((acc,curr) => acc + curr)
+    var valor = mediasAAA.map(m => m.media).reduce((acc,curr) => acc + curr,0)
     return (valor/mediasAAA.length) * 1.345
 }
 
 function calculaTaxaAA(mediasAA) {
-    var valor = mediasAA.map(m => m.media).reduce((acc,curr) => acc + curr)
+    var valor = mediasAA.map(m => m.media).reduce((acc,curr) => acc + curr,0)
     return (valor/mediasAA.length) * 0.045
 }
 
 function calculaTaxaA(mediasA) {
-    var valor = mediasA.map(m => m.media).reduce((acc,curr) => acc + curr)
+    var valor = mediasA.map(m => m.media).reduce((acc,curr) => acc + curr,0)
     return (valor/mediasA.length) * 5
 }
 
@@ -58,7 +58,7 @@ SDK.run((context, resolve) => {
         return valor
     })
 
-    var valorFinal = valores.reduce((acc,cur)=> acc + cur) / 12
+    var valorFinal = valores.reduce((acc,cur)=> acc + cur,0) / 12
     taxa.valor = valorFinal
     if (exist){
         context.dataset.Taxa.update(taxa)
