@@ -1,0 +1,16 @@
+{
+    "app": {
+        "type": "presentation",
+        "tecnology": "node",
+        "name": "cotacao-online",
+        "version": "",
+        "description": "",
+        "author": "",
+        "id": "e474358e-c40f-4312-82dc-5f2bc8b81453"
+    },
+    "solution": {
+        "name": "teste",
+        "description": "teste",
+        "id": "ec498841-59e5-47fd-8075-136d79155705"
+    }
+}
