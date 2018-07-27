@@ -2,3 +2,9 @@ operations:
   - name: cadastro-cliente
     event: create.client.request
     commit: true
+  - name: atualiza-cliente
+    event: update.client.request
+    commit: true
+  - name: excluir-cliente
+    event: destroy.client.request
+    commit: true

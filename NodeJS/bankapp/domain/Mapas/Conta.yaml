@@ -1,0 +1,22 @@
+Contas:
+  model: conta
+  fields:
+    balance:
+      column: saldo
+    name:
+      column: titular
+    document:
+      column: rg
+  filters:
+    byId: "id = :id"
+    all:      
+    byName: "titular like :name"    
+
+ContaCount:
+  model: conta
+  fields:
+    qtd:
+      column: titular
+  filters:
+    all:      
+    byName: "titular like :name"    

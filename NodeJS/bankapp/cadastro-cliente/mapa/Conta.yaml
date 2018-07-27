@@ -9,4 +9,5 @@ Conta:
       column: rg
   filters:
     byId: "id = :id"
-    all:      
+    all:    
+    byName: "titular like :name"  
