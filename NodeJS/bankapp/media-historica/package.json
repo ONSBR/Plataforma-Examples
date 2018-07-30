@@ -11,6 +11,6 @@
     "license": "ISC",
     "dependencies": {
         "jasmine-node": "^1.15.0",
-        "plataforma-sdk": "git+https://github.com/ONSBR/Plataforma-SDK"
+        "plataforma-sdk": "git+https://github.com/ONSBR/Plataforma-SDK#hotfix/reprocessamento"
     }
 }

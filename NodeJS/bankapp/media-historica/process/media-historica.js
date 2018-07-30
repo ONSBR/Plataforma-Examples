@@ -1,6 +1,7 @@
 const SDK = require("plataforma-sdk/worker/sdk")
 
 SDK.run((context, resolve) => {
+    console.log("versão 1.0")
     var params = context.event.payload;
     var cotacoes = context.dataset.Cotacao.collection.toArray();
     var mediaHistoricas = context.dataset.MediaHistorica.collection.toArray();
