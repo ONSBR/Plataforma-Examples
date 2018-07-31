@@ -8,9 +8,7 @@ namespace Business
 {
     public class CadastraCliente    {
 
-        private const string _inserirCenario = "create.client.request";
-
-        [SDKEvent(_inserirCenario)]
+        [SDKEvent]
         public void InserirCenario(IDataSet<Conta> contas, Conta payload)
         {
             var conta = new Conta();

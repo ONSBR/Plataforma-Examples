@@ -1,0 +1,4 @@
+operations:
+  - name: sager-calculotaxa
+    event: calculate.usinataxa.request
+    commit: true
