@@ -1,0 +1,4 @@
+operations:
+  - name: simulacao-cotacao
+    event: simulacao.cotacao.request
+    commit: true

@@ -1,0 +1,16 @@
+{
+    "app": {
+        "type": "process",
+        "tecnology": "node",
+        "name": "retificacao-cotacao",
+        "version": "",
+        "description": "",
+        "author": "",
+        "id": "2cea2a75-05db-4e5f-91d0-6f9a6abc645f"
+    },
+    "solution": {
+        "name": "teste",
+        "description": "teste",
+        "id": "ec498841-59e5-47fd-8075-136d79155705"
+    }
+}

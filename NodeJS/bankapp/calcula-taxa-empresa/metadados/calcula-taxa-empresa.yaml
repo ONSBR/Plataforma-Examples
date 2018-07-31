@@ -1,0 +1,4 @@
+operations:
+  - name: calcula-taxa-empresa
+    event: calcula.taxa.empresa.request
+    commit: true

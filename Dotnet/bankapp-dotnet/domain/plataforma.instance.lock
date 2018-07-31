@@ -1,0 +1,6 @@
+{
+    "docker": {
+        "tag": "registry:5000/domain:841361b2-6536-48e6-9477-b2bc69f8aadb",
+        "port": 9110
+    }
+}

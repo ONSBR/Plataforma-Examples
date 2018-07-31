@@ -1,0 +1,15 @@
+{
+    "tipos":["B"],
+    "empresas":["PET01"],
+    "anoInicial":2017,
+    "maxMes":2,
+    "maxDias":1,
+    "valores":{
+        "A":1,
+        "AA":2,
+        "AAA":3
+    },
+    "criarCotacoes":true,
+    "calcularMedias":true,
+    "calcularTaxas":true
+}

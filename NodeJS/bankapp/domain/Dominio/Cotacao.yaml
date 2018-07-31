@@ -1,0 +1,9 @@
+cotacao:
+  empresa:
+    - string
+  tipo:
+    - string
+  valor:
+    - integer
+  data:
+    - datetime

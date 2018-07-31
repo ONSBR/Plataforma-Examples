@@ -1,0 +1,11 @@
+Cotacao:
+  model: cotacao
+  fields:
+    empresa:
+      column: empresa
+    valor:
+      column: valor
+    tipo:
+      column: tipo
+    data:
+      column: data

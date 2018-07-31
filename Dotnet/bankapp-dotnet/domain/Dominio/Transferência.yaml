@@ -1,0 +1,9 @@
+transferencia:
+  origem:
+    - uuid
+  destino:
+    - uuid
+  valor:
+    - integer
+  data:
+    - datetime

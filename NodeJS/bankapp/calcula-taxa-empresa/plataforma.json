@@ -1,0 +1,16 @@
+{
+    "app": {
+        "type": "process",
+        "tecnology": "node",
+        "name": "calcula-taxa-empresa",
+        "version": "",
+        "description": "",
+        "author": "",
+        "id": "9a6f9744-840c-45e5-86fd-c81fd26bc2a7"
+    },
+    "solution": {
+        "name": "teste",
+        "description": "teste",
+        "id": "ec498841-59e5-47fd-8075-136d79155705"
+    }
+}

@@ -1,0 +1,181 @@
+restify listening at http://[::]:9091
+Request from: executor
+creating with {
+    "name": "transfer.requested",
+    "instance_id": null,
+    "reference_date": null,
+    "reproduction": {},
+    "reprocess": {},
+    "payload": {
+        "origem": "210b114f-a9e9-40e2-8a9e-c65e0d2c3932",
+        "destino": "5e91015b-05b3-4ff2-a5b0-bc39504b9aca",
+        "valor": 1
+    }
+}
+Request from: node_sdk
+Request from: node_sdk
+commiting with {
+    "event": {
+        "name": "transfer.requested",
+        "instance_id": null,
+        "reference_date": null,
+        "reproduction": {},
+        "reprocess": {},
+        "payload": {
+            "origem": "210b114f-a9e9-40e2-8a9e-c65e0d2c3932",
+            "destino": "5e91015b-05b3-4ff2-a5b0-bc39504b9aca",
+            "valor": 1
+        }
+    },
+    "processId": "61728cac-a576-4643-8e58-82a83b304053",
+    "systemId": "ec498841-59e5-47fd-8075-136d79155705",
+    "instanceId": "1f566c4c-57b3-4dd0-966e-e94bdfb3c77b",
+    "eventOut": "transferencia_done",
+    "commit": true,
+    "map": {
+        "name": "ContaBkp",
+        "systemId": "ec498841-59e5-47fd-8075-136d79155705",
+        "processId": "61728cac-a576-4643-8e58-82a83b304053",
+        "content": {
+            "Conta": {
+                "model": "conta",
+                "fields": {
+                    "saldo": {
+                        "column": "saldo"
+                    },
+                    "titular": {
+                        "column": "titular"
+                    }
+                },
+                "filters": {
+                    "transferencia": {
+                        "id": {
+                            "$in": [
+                                ":origem",
+                                ":destino"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "id": "262b720d-065d-4883-ad13-9200f759c5a0",
+        "_metadata": {
+            "type": "map",
+            "branch": "master"
+        }
+    },
+    "dataset": {
+        "Conta": {
+            "collection": {
+                "prevSource": {}
+            }
+        },
+        "entities": {
+            "Conta": [
+                {
+                    "saldo": 10,
+                    "titular": "teste",
+                    "id": "210b114f-a9e9-40e2-8a9e-c65e0d2c3932",
+                    "_metadata": {
+                        "type": "Conta",
+                        "branch": "master"
+                    }
+                },
+                {
+                    "saldo": 10,
+                    "titular": "teste",
+                    "id": "5e91015b-05b3-4ff2-a5b0-bc39504b9aca",
+                    "_metadata": {
+                        "type": "Conta",
+                        "branch": "master"
+                    }
+                }
+            ]
+        }
+    }
+}
+Request from: node_sdk
+commiting with {
+    "event": {
+        "name": "transfer.requested",
+        "instance_id": null,
+        "reference_date": null,
+        "reproduction": {},
+        "reprocess": {},
+        "payload": {
+            "origem": "210b114f-a9e9-40e2-8a9e-c65e0d2c3932",
+            "destino": "5e91015b-05b3-4ff2-a5b0-bc39504b9aca",
+            "valor": 1
+        }
+    },
+    "processId": "61728cac-a576-4643-8e58-82a83b304053",
+    "systemId": "ec498841-59e5-47fd-8075-136d79155705",
+    "instanceId": "1f566c4c-57b3-4dd0-966e-e94bdfb3c77b",
+    "eventOut": "transferencia_done",
+    "commit": true,
+    "map": {
+        "name": "ContaBkp",
+        "systemId": "ec498841-59e5-47fd-8075-136d79155705",
+        "processId": "61728cac-a576-4643-8e58-82a83b304053",
+        "content": {
+            "Conta": {
+                "model": "conta",
+                "fields": {
+                    "saldo": {
+                        "column": "saldo"
+                    },
+                    "titular": {
+                        "column": "titular"
+                    }
+                },
+                "filters": {
+                    "transferencia": {
+                        "id": {
+                            "$in": [
+                                ":origem",
+                                ":destino"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "id": "262b720d-065d-4883-ad13-9200f759c5a0",
+        "_metadata": {
+            "type": "map",
+            "branch": "master"
+        }
+    },
+    "dataset": {
+        "Conta": {
+            "collection": {
+                "prevSource": {}
+            }
+        },
+        "entities": {
+            "Conta": [
+                {
+                    "saldo": 9,
+                    "titular": "teste",
+                    "id": "210b114f-a9e9-40e2-8a9e-c65e0d2c3932",
+                    "_metadata": {
+                        "type": "Conta",
+                        "branch": "master",
+                        "changeTrack": "update"
+                    }
+                },
+                {
+                    "saldo": 11,
+                    "titular": "teste",
+                    "id": "5e91015b-05b3-4ff2-a5b0-bc39504b9aca",
+                    "_metadata": {
+                        "type": "Conta",
+                        "branch": "master",
+                        "changeTrack": "update"
+                    }
+                }
+            ]
+        }
+    }
+}

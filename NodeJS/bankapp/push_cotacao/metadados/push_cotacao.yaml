@@ -1,0 +1,5 @@
+operations:
+  - name: push_operacao
+    event: push.operacao.request
+    commit: true
+    skip_reprocessing: true

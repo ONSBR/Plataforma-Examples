@@ -1,0 +1,11 @@
+media_historica:
+  empresa:
+    - string
+  mes:
+    - integer
+  ano:
+    - integer
+  tipo:
+    - string
+  media:
+    - float
