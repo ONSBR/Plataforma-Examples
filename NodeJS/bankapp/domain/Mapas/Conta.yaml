@@ -1,4 +1,4 @@
-Contas:
+Conta:
   model: conta
   fields:
     balance:
@@ -9,14 +9,5 @@ Contas:
       column: rg
   filters:
     byId: "id = :id"
-    all:      
-    byName: "titular like :name"    
-
-ContaCount:
-  model: conta
-  fields:
-    qtd:
-      column: titular
-  filters:
     all:      
     byName: "titular like :name"    

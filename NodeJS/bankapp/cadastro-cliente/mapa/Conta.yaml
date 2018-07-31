@@ -8,10 +8,6 @@ Conta:
     document:
       column: rg
   filters:
-<<<<<<< HEAD
     byId: "id = :id"
-    all:    
-    byName: "titular like :name"  
-=======
-    byId: "id = :id"
->>>>>>> 21f0d1d30bde827d893402d041b5a48110696f03
+    all:      
+    byName: "titular like :name"    
