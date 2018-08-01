@@ -1,0 +1,5 @@
+PushCotacao:
+  model: cotacao
+  fields:
+    tipo:
+      column: tipo

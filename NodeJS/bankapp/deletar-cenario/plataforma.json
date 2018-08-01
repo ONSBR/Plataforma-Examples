@@ -1,0 +1,16 @@
+{
+    "app": {
+        "type": "process",
+        "tecnology": "node",
+        "name": "deletar-cenario",
+        "version": "",
+        "description": "",
+        "author": "",
+        "id": "dad157cf-590d-42c0-831c-6eaf7975f156"
+    },
+    "solution": {
+        "name": "teste",
+        "description": "teste",
+        "id": "ec498841-59e5-47fd-8075-136d79155705"
+    }
+}

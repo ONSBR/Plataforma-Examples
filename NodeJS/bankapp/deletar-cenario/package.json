@@ -1,0 +1,16 @@
+{
+    "name": "deletar-cenario",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "./node_modules/.bin/jasmine-node spec"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "jasmine-node": "^1.15.0",
+        "plataforma-sdk": "git+https://github.com/ONSBR/Plataforma-SDK"
+    }
+}
