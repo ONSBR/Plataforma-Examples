@@ -1,0 +1,5 @@
+operations:
+  - name: drop-cenario
+    event: drop.cenario.request
+    commit: true
+    skip_reprocessing: true
