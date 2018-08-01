@@ -9,3 +9,4 @@ Conta:
       column: rg
   filters:
     byId: "id = :id"
+    all:      

@@ -1,0 +1,16 @@
+{
+    "app": {
+        "type": "process",
+        "tecnology": "dotnet",
+        "name": "sager-calculotaxa",
+        "version": "1",
+        "description": "teste",
+        "author": "fca",
+        "id": "0b3e3375-3c38-4c74-9068-269d1aa3384d"
+    },
+    "solution": {
+        "name": "teste",
+        "description": "teste",
+        "id": "ec498841-59e5-47fd-8075-136d79155705"
+    }
+}
