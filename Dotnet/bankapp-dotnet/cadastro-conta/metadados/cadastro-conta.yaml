@@ -1,0 +1,4 @@
+operations:
+  - name: cadastro-conta
+    event: create.conta.request
+    commit: true

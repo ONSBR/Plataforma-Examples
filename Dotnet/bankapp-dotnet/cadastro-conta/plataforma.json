@@ -1,12 +1,12 @@
 {
     "app": {
-        "type": "domain",
-        "tecnology": "node",
-        "name": "domain",
+        "type": "process",
+        "tecnology": "dotnet",
+        "name": "cadastro-conta",
         "version": "1.0",
-        "description": "Teste Domain .NET",
+        "description": "Cadastro de Conta",
         "author": "Fernando Andrade",
-        "id": "6a1a2398-55d6-41da-816a-e08f3e138c57"
+        "id": "20fffb02-c948-400d-a20a-1719ae02b6e0"
     },
     "solution": {
         "name": "bankapp-dotnet",
